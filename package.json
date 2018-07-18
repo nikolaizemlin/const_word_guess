@@ -1,0 +1,25 @@
+{
+  "name": "advanced_js_assignment-constructor_hangman",
+  "version": "1.0.0",
+  "description": "homework_11",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeyamato/Advanced_Js_Assignment-Constructor_Hangman.git"
+  },
+  "author": "mix master mike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikeyamato/Advanced_Js_Assignment-Constructor_Hangman/issues"
+  },
+  "homepage": "https://github.com/mikeyamato/Advanced_Js_Assignment-Constructor_Hangman#readme",
+  "dependencies": {
+    "inquirer": "^3.3.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}

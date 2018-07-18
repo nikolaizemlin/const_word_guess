@@ -1,2 +1,2 @@
-# const_word_guess
-9: Advanced JavaScript Assignment: Constructor Word Guess
+# Advanced_Js_Assignment-Constructor_Hangman
+Advanced JavaScript Assignment: Constructor Hangman
