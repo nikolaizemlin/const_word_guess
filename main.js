@@ -1,4 +1,4 @@
-var game = require('./game');
+var game = require('./guess');
 var wordCons = require('./word');
 var letterCons = require('./letter');
 var inquirer = require('inquirer');
@@ -6,7 +6,7 @@ var randomWord = game.randomWord;
 var letterGuessed;
 
 var myWord = new wordCons.wordCons(game.randomWord);
-var maxGuesses = 2;
+var maxGuesses = 6;
 
 function takeAGuess(){
 	console.log(myWord.toString());
@@ -32,7 +32,7 @@ function takeAGuess(){
 		type: 'text',
 		message: 'Enter a letter:',
 		validate: function(str){
-//			if (str.length != 1) return false;
+			if (str.length != 1) return false;
 			var regEx = new RegExp('^[a-zA-Z\s]{1,1}$');
 			return regEx.test(str);
 				}
